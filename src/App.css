@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('C:\Users\Lokesh Sistu\Downloads\download.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chatbot-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.chat-messages {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 30px;
+  overflow-y: auto;
+}
+
+
